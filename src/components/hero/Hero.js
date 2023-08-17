@@ -1,8 +1,7 @@
 import './Hero.css';
 import Carousel from 'react-material-ui-carousel'; 
 import { Paper } from '@mui/material';
-// bây giờ mình ẩn vài dòng coi thử lỗi có bị mất ko hen
-//ctrl + /   :comment//uncomment
+
 const Hero = ({movies}) => {
     return (
         <div className='movie-carousel-cpntainer'>
